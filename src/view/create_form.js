@@ -138,8 +138,7 @@ const createForm = () => (
         </div>
       </div>
     </section>
-  </section>
-</form>`);
+  </section> </form>`);
 
 
 export default class CreateFormView {
@@ -159,3 +158,5 @@ export default class CreateFormView {
     this.element = null;
   }
 }
+
+
