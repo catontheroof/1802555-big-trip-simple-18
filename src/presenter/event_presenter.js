@@ -15,7 +15,7 @@ export default class ListPresenter {
 
     render(this.pointsList, this.listContainer);
     render(new CreateFormView(), this.pointsList.getElement());
-    
+
 
     for (let i = 0; i < POINTS_COUNTER; i++) {
       render(new PointView(), this.pointsList.getElement());

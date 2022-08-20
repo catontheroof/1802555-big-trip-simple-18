@@ -15,7 +15,7 @@ const createFilter = () => (`<form class="trip-filters" action="#" method="get">
 export default class CreateFilterView {
   getTemplate() {
     return createFilter();
-}
+  }
 
   getElement() {
     if (!this.element) {
